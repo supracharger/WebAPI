@@ -1,0 +1,26 @@
+{
+    Postman-Token:      <Postman random UUID token identifier>
+    Host:               https://www.googleapis.com/books/v1/volumes/{{book_id}}
+    User-Agent:         PostmanRuntime/7.43.0
+    Accept:             */*
+    Accept-Encoding:    gzip, deflate, br
+    Connection:         keep-alive
+}
+
+{
+    Postman-Token:      This is a random identifier. It aids in Postman debugging and
+                        gives Postman the ability to distintly separate requests.
+
+    Host:               The domain name address to send the request to the server.
+
+    User-Agent:         Helps the server identify that the client is using Postman.
+
+    Accept:             Tells the server that Postman can understand all forms of 
+                        response types.
+
+    Accept-Encoding:    Defines what encoding(s) the client supports like Compression
+                        algorithms.
+                        
+    Connection:         Keeps the connection alive for future use so subsequent requests
+                        have a faster response.
+}
